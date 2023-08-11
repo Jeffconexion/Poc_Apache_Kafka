@@ -1,7 +1,4 @@
-﻿
-
-//configuração do arquivo yml
-using Confluent.Kafka;
+﻿using Confluent.Kafka;
 using Confluent.Kafka.SyncOverAsync;
 using Confluent.SchemaRegistry;
 using Confluent.SchemaRegistry.Serdes;

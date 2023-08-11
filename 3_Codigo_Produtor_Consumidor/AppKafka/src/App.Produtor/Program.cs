@@ -1,4 +1,4 @@
-﻿using Confluent.Kafka;  // Importação do namespace Confluent.Kafka
+﻿using Confluent.Kafka;
 using Confluent.SchemaRegistry;
 using Confluent.SchemaRegistry.Serdes;
 
