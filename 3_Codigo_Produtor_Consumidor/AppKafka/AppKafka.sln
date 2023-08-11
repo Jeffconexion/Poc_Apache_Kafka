@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Produtor", "src\App.Produtor\App.Produtor.csproj", "{F99D0F1C-96B8-4B06-892C-AC6AF7E1AF16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Produtor", "src\App.Produtor\App.Produtor.csproj", "{F99D0F1C-96B8-4B06-892C-AC6AF7E1AF16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Consumidor", "App.Consumidor\App.Consumidor.csproj", "{21AA7F5E-F8E2-4B03-9CBF-6A279E71153C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Consumidor", "App.Consumidor\App.Consumidor.csproj", "{21AA7F5E-F8E2-4B03-9CBF-6A279E71153C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avros", "src\Avros\Avros.csproj", "{0A2ACD5A-D39D-450F-99FC-254A29EA4F87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{21AA7F5E-F8E2-4B03-9CBF-6A279E71153C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21AA7F5E-F8E2-4B03-9CBF-6A279E71153C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21AA7F5E-F8E2-4B03-9CBF-6A279E71153C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2ACD5A-D39D-450F-99FC-254A29EA4F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2ACD5A-D39D-450F-99FC-254A29EA4F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2ACD5A-D39D-450F-99FC-254A29EA4F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2ACD5A-D39D-450F-99FC-254A29EA4F87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
