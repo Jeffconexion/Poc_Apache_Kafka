@@ -3,6 +3,7 @@ using Confluent.Kafka.SyncOverAsync;
 using Confluent.SchemaRegistry;
 using Confluent.SchemaRegistry.Serdes;
 
+//configuração do schema do confluent yml
 var schemaConfig = new SchemaRegistryConfig
 {
     Url = "http://localhost:8081"
