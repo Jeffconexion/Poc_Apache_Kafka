@@ -1,7 +1,5 @@
 ﻿using Confluent.Kafka;
-using System.Text;
 
-#region Utilizando ack
 
 const string Topico = "testetreinamento";
 
@@ -26,4 +24,3 @@ catch (Exception ex)
     Console.Error.WriteLine(ex.ToString());
 }
 
-#endregion
